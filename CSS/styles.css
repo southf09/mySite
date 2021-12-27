@@ -18,23 +18,23 @@ h3 {
   font-family: "Montserrat", sans-serif;
 }
 
+#pro {
+  text-decoration: underline;
+}
 .top-container {
   background-color: #d8f3dc;
   position: relative;
   padding-top: 100px;
 }
 .middle-container {
-  background-color: blueviolet;
-  height: 200px;
-  width: 200px;
 }
 
 .bottom-container {
-  background-color: crimson;
-  height: 200px;
-  width: 200px;
 }
 
+hr {
+  width: 50%;
+}
 .bottom-cloud {
   position: absolute;
   left: 300px;
