@@ -1,6 +1,6 @@
 body {
   margin: 0 auto;
-  box-sizing: border-box;
+  text-align: center;
 }
 
 h1 {
@@ -8,6 +8,8 @@ h1 {
 }
 .top-container {
   background-color: #d8f3dc;
+  position: relative;
+  padding-top: 100px;
 }
 .middle-container {
   background-color: blueviolet;
@@ -19,4 +21,16 @@ h1 {
   background-color: crimson;
   height: 200px;
   width: 200px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
 }
